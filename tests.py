@@ -33,3 +33,8 @@ class RomanosTests(unittest.TestCase):
             a_numero('IM')
             a_numero('XM')
             a_numero('XD')
+
+
+    def tests_no_mas_de_tres_repeticiones(self):
+        self.assertEqual(a_numero('III', 3))
+        with 
